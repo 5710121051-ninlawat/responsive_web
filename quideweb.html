@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			My profile @Case Study1 Module 1
+		</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/rensponsive.css">
+		<link rel="stylesheet" href="css/slider.css">
+    <style>@media only screen and (min-width : 150px) and (max-width : 780px) {
+  		
+      #adiv1 {
+		display: none;}
+
+  	}
+  	
+  	</style>
+
+	</head>
+	<body>
+
+		<div id="container">
+			<header id="header">
+				<img src="image/banner.png" style="max-width: 100%;"/>
+
+			</header>
+			<nav id="nav" style="background-color: #666;">
+				<ul id="menu">
+					<li>
+						<a href="index.html" target="_self">
+							หน้าแรก
+						</a>
+					</li>
+					<li>
+						<a href="resume.html" target="_self">
+							งานอดิเรก
+						</a>
+					</li>
+					<li>
+						<a href="quideweb.html" target="_self">
+							แนะนำเว็บไซต์
+						</a>
+					</li>
+					<li>
+						<a href="gallery.html" target="_self">
+							อัลบั้มภาพ
+						</a>
+					</li>
+				</ul>
+
+			</nav>
+
+			<section id="section">
+				<article class="content">
+					<h3>
+						การพัฒนา Web Responsive Design ด้วย HTML 5
+					</h3>
+					<p>
+						<iframe max-width="420px" height="315" width="100%"
+src="https://www.youtube.com/embed/g-_zwoAXwbs">
+						</iframe>
+						<br>
+
+
+					</p>
+				</article>
+				<article article class="content">
+					<h3>
+						สอนวิธีทำ Responsive Web Design ใน 6 ขั้นตอน
+					</h3>
+					<img src="image/guideweb/responsive_web_design.png" width="100%"/>
+					<p>
+						ทำไมต้อง Responsive Web Design?
+						เคยมั้ยครับ? ที่เวลาเข้าเว็บไซต์นึงใน PC แล้วแสดงผลออกมาหน้าตาสวยงาม ใช้งานง่าย แต่พอไปเปิดเว็บไซต์นั้น บนมือถือกลับพบว่าใช้งานค่อนข้างลำบาก เนื่องจากตัวหนังสือรวมไปถึงรูปภาพมีขนาดเล็กลง ปุ่มต่างๆ ก็เล็กจนกดยาก แถมยังมีโฆษณา หรืออะไรที่รกหูรกตาเยอะแยะเต็มไปหมด
+					</p> <br>
+					<p>
+
+						แต่ก่อน ปัญหานี้เราจะแก้โดยการสร้างเว็บไซต์ขึ้นมาอีกเวอร์ชั่นนึงครับ ซึ่งในเวอร์ชั่นนี้ จะออกแบบให้ใช้งานได้ง่ายขึ้นบนอุปกรณ์ที่มีหน้าจอขนาดเล็ก รวมไปถึงตัดเนื้อหาต่างๆ ที่ไม่จำเป็นออก เหลือไว้แต่ส่วนที่ User ต้องการใช้จริงๆ เท่านั้น แต่วิธีนี้มีข้อเสียคือ มีค่าใช้จ่ายเพิ่มขึ้น และยังต้องใช้เวลาในการพัฒนาเพิ่มขึ้นอีกด้วย
+					</p>
+					<br>
+					<p>
+						Responsive Web Design เป็นอีกทางเลือกนึง ในการพัฒนาเว็บไซต์ที่กำลังได้รับความนิยมในขณะนี้ครับ โดยมีจุดประสงค์เพื่อ “ทำให้ User ใช้งานได้ง่ายที่สุด” โดย Responsive Web Design นั้น มีข้อดีคือจะใช้ source code ตัวเดียว ทำให้ประหยัดเวลาและค่าใช้จ่าย แต่จะสามารถปรับการแสดงผล ให้เหมาะสมกับอุปกรณ์ต่างๆ ได้อย่างไม่น่าเชื่อ
+					</p>
+
+					<p>
+						คำถามคือ ทำไม Responsive Web Design ถึงทำอย่างนั้นได้? ตอบง่ายๆ ว่า Responsive Web Design คือการนำเทคนิคหลายๆ อย่าง มาใช้ร่วมกัน ซึ่งเทคนิคเหล่านี้ ถ้าอยู่เดี่ยวๆ มันก็อาจจะทำอะไรได้ไม่มาก แต่พอมันมาอยู่กันพร้อมหน้าแล้ว กลับสร้างสิ่งใหม่ที่เรียกว่า Responsive Web Design ขึ้นมาครับ
+					</p>
+					<br>
+					<p>
+						เอาล่ะครับ ตอนนี้ทุกคนคงรู้จัก Responsive Web Design มากขึ้นแล้ว ทีนี้เรามาเข้าเรื่องกันเลยครับ ผมจะสรุปขั้นตอนการทำ Responsive Web Design มาเป็นข้อๆ ลองค่อยๆ ทำความเข้าใจแล้วทำตามดูนะครับ
+					</p>
+					<P>
+					
+					<button onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}" title="Click to show/hide content" type="text" class="myButton"  >
+						<span style="font-size: small;">
+							<b>
+								Read more
+							</b>
+						</span>
+					</button>
+					<div id="spoiler" style="display: none;">
+						<h4>1. ออกแบบให้เรียบง่าย</h4>
+						<p>
+							หากคิดจะทำ Responsive Web Design สิ่งแรกที่ต้องคำนึงถึงคือ การออกแบบเว็บไซต์ให้เรียบง่ายที่สุดครับ อะไรที่ตัดได้ หรือไม่จำเป็น อย่าใส่เข้าไป เช่น Flash หรือ Effects ต่างๆ (เช่น Parallax เป็นต้น) รวมไปถึงการเขียน html ให้ clean ที่สุด ให้เราเขียนเฉพาะ html elements ที่จำเป็นเท่านั้น ส่วน style sheets ก็ให้ละการใช้แบบ inline ครับ
+						</p>
+						<h4>2. เริ่มที่หน้าจอเล็กสุดก่อนเสมอ</h4>
+						<p>เอาละครับ ตอนนี้เรารู้แล้วว่า เราต้องออกแบบให้เรียบง่ายมากที่สุดเท่าที่จะทำได้ แล้วเรายังมีรายการของเนื้อหาทั้งหมด ที่ต้องการจะใส่ลงไปในเว็บไซต์ของเรา ขั้นตอนต่อมา ให้เราเริ่มออกแบบสำหรับหน้าจอที่เล็กที่สุดก่อนครับ(Mobile-First) ขั้นตอนนี้สำคัญมากครับ เพราะถือเป็นรากฐานของเว็บไซต์เราเลย ความยากของขั้นตอนนี้อยู่ตรงที่ คนทั่วไปมักจะติดภาพของการออกแบบสำหรับ PC ครับ ซึ่งผมไม่แนะนำให้เริ่มออกแบบสำหรับ PC ก่อนเพราะจะทำให้เราเขียนโค้ดได้ลำบากกว่า และมีโอกาสที่จะเกิดการซ้ำซ้อนของโค้ดมากกว่าด้วยครับ</p>
+						<h4>3. กำหนดขนาดแบบ Relative</h4>
+						<p>เมื่อ html โอเคแล้ว ต่อมาให้เราเขียน style sheets ให้กับ html ที่เราเขียนไว้ครับ ขั้นตอนนี้ ให้เราดูภาพที่เราร่างไว้ครับ แล้วเขียน style sheets จนพรีวิวแล้วมีหน้าตาเหมือนกับที่ได้ร่างไว้ครับ ขั้นตอนนี้ เราต้องคำนึงอยู่เรื่องนึง คือการกำหนดขนาดของสิ่งต่างๆ เราต้องกำหนดให้เป็นแบบ relative ซึ่งก็คือการกำหนดขนาดให้สัมพันธ์กับสิ่งที่อยู่ข้างเคียงนั่นเองครับ</p>
+						 <h4>4. หา Breakpoints แล้วเขียน Media Queries</h4>
+						 <p>ตอนนี้ หากเราลองพรีวิวดู ที่ความกว้างประมาณ 300px ภาพที่เราอยากเห็นคือการแสดงผลที่ทำให้ User ใช้งานได้ง่ายมากที่สุด ทีนี้ ให้เราลองขยาย viewport จาก 300px ขึ้นเรื่อยๆ ครับ ด้วยการที่เรากำหนดขนาดของสิ่งต่างๆ ให้เป็นแบบ relative แม้เราจะขยาย viewport ให้ใหญ่ขึ้น องค์ประกอบต่างๆ จะยังคงแสดงผลได้ดีอยู่ในระดับหนึ่ง แต่ถ้าเมื่อเราเพิ่มขนาดขึ้นไปเรื่อยๆ แล้วพบว่าที่ความกว้างขนาดนี้ เราสามารถปรับองค์ประกอบต่างๆ เพื่อทำให้ใช้งานได้สะดวกขึ้นได้ หรือเพื่อความเหมาะสม เราจะเรียกจุดนั้นว่า Breakpoint ให้เราใช้ Media Queries ในการใส่ style sheets สำหรับ Breakpoint นั้นๆ เพื่อที่จะปรับการแสดงผลให้เหมาะสมตรงตามที่เราต้องการครับ หลังจากนั้น ให้เราเพิ่มขนาดของ viewport อีก แล้วหา Breakpoint ต่อไป ทำแบบนี้ไปเรื่อยๆ จนกว่าจะถึงขนาดที่เราพอใจครับ รายละเอียดในขั้นตอนนี้ ผมได้เขียนอธิบายไว้อย่างละเอียดแล้วในบทความ “รู้จักกับ Breakpoints ใน Responsive web design” ครับ</p>
+						 <h4>5. กำหนด Viewport Meta Tag</h4>
+						<p>นตอนนี้ทำง่ายมากครับ แต่ก่อนอื่น ผมขออธิบายถึงสาเหตุที่เราต้องมากำหนดค่า default settings ของ viewport ด้วย viewport meta tag กันก่อน เรื่องมันมีอยู่ว่า pixels มันมีอยู่ 3 แบบด้วยกันครับ คือ Physical Pixels, CSS Pixels และ Device Pixels</p>
+						<h4>6. เช็คกับ Devices จริงๆ</h4>
+						<p>มาถึงขั้นตอนสุดท้ายแล้วครับ นั่นคือการนำเว็บไซต์ที่เราได้ทำมา ไปลองเปิดดูกับ Devices จริงๆ บางคนอาจสงสัยว่าทำไมผมถึงแนะนำให้ทำขั้นตอนนี้เป็นขั้นตอนสุดท้าย ทำไมไม่ทำไปเทสไปล่ะ? การทำไปเทสไปนั้นจะไม่จำเป็นเลยครับ ถ้าเรามีการวางแผนการทำงานมาเป็นอย่างดี ถ้าหากเพื่อนๆ เข้าใจในแต่ละขั้นตอนที่ผมได้เล่ามา แล้วทำตามอย่างละเอียดแล้วละก็ เว็บไซต์ของเราจะมีหน้าตาสวยงามในทุกๆ Devices โดยอัตโนมัติเลยครับ ทำไมถึงเป็นเช่นนั้นละ? </p>
+					
+						
+					</div>
+					</p>
+ <br>
+					<a href="http://www.siamhtml.com/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%97%E0%B8%B3-responsive-web-design/"target="_blank">
+						ที่มา http//www.siamhtml.com
+					</a>
+					<br>
+
+					
+				</article>
+				<article article class="content">
+					<h3>
+						ลิงค์เว็บที่น่าสนใจ
+					</h3>
+					<p>
+						<a href="http://css3.bradshawenterprises.com/" target="_blank" >
+							css3.bradshawenterprises
+						</a> <br>
+						<a href="http://www.dynamicdrive.com/style/" target="_blank" >
+							Drive CSS Library
+						</a> <br>
+						<a href="http://css3generator.com/" target="_blank" >
+							CSS3 Generator
+						</a> <br>
+						<a href="http://www.siamhtml.com/responsive-web-design-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3/" target="_blank" >
+							Responsive Web Design คืออะไร
+						</a> <br>
+
+					</p>
+				</article>
+			</section>
+			<aside id="aside">
+				<div id="adiv1">
+
+					<h3>
+						My Profile
+					</h3>
+					<img  src="image/profile.jpg" style="max-width: 100%;" />
+					<br>
+					<p>
+						ชื่อ-สกุล: กานต์ชนก  สุวรรณวงศ์
+					</p>
+					<p>
+						ชื่อเล่น : ปาย
+					</p>
+					<p>
+						เกิด: 19 พฤษภาคม 2534
+					</p>
+					<p>
+						สัญชาติ: ไทย
+					</p>
+					<p>
+						ภูมิลำเนา : จังหวัดสงขลา
+					</p>
+
+				</div>
+
+				 <div id="adiv2" align="center">
+					<br>
+				 
+					<img  src="image/html_logo.png" />
+				</div>
+			</aside>
+			<footer id="footer">
+				<p>
+					นางสาว กานต์ชนก  สุวรรณวงศ์  รหัสนักศึกษา 5810121030 <br>
+					การจัดการเทคโนโลยีสารสนเทศ  คณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์
+				</p>
+
+			</footer>
+		</div>
+	</body>
+
+</html>
